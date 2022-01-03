@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mid-content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text-left{
+    text-align:left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.left{
+    float: left;
+}
+.rigt{
+    float: right;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+body, h1, h2, h3, h4, h5, h6, span, a, p {
+    font-family: 'Work Sans', sans-serif;
+}
+/* main css start here */
+
+.header{
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.header-logo{
+    width: 30%;
+}
+.header-logo span {
+	color: #010101;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 23px;
+	padding-top: 10px;
+    transition: .4s;
+}
+.header-logo span:hover{
+    color: #a8a8a8;
+}
+
+.header-logo img {
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.header-menu{
+    width: 50%;
+}
+.header-button{
+    width: 20%;
+}
+.header-button a {
+	color: #6278DF;
+	border: 2px solid #6278DF;
+	padding: 7px 20px;
+	display: inline-block;
+	margin-top: 5px;
+	border-radius: 10px;
+	font-weight: 400;
+    transition: .4s;
+    text-align: right;
+}
+.header-button a:hover{
+    background-color: #6278DF;
+    color: #fff;
+    box-shadow: 10px 10px 8px #6278DF;
+}
+
+.header-menu ul{}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+	display: block;
+	color: #010101;
+	padding: 15px 16px;
+	font-weight: 500;
+}
